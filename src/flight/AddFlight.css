@@ -1,0 +1,59 @@
+.addfli {
+  background-image: url("https://www.independent.ie/life/travel/1da5f/34440176.ece/AUTOCROP/w1240h700/airplane.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  color: #0c0d23;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid #233948;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+button[type="submit"] {
+  padding: 0.5rem 1rem;
+  background-color: #0020d4;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+/* Focus styles */
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0077c2;
+}
